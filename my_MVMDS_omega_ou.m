@@ -1,22 +1,18 @@
 function[signal,mode]=my_MVMDS_omega_ou(ewhnone,maxnum,penaly_factor,ds_flag,omega_ou_max)
 %%
-%  [signal,mode]=my_MVMDS_component(ewhnone,maxnum,penaly_factor,ds_flag)
 %  This function is dedicated to decompose the input 2-d matrix
-%  input: ewhnone
-%  maxnum:          K
-%  penaly_factor:   \alpha 
+%  input: 
+%  ewhnone:         input 2-d matrix
+%  maxnum:          K     (6 in our paper for GRACE noise)
+%  penaly_factor:   \alpha (500 in our paper for GRACE noise)
 %  ds_flag:         0/1  -> ds=cos(co-latitude) /   ds=1; a weight for each
 %  omega_ou_max:    w_max (0.1 in our paper for GRACE noise)
-%  channel accross the latitudes
 % 
 %   signal:   the filtered result;
 %   mode:     res+each mode; ranging along 3-d; 
 %               the first one is residual, 
 %               the second one to the finnal one is IMF1, IMF2~~~;IMF_k; respectively.
 %  
-%   omega_ou:   the center frequency of each IMF;
-%               the frst one to the finnal one corresponding to 
-%               IMF1; IMF2~~~;IMF_k; respectively.
 %-------------------------------------------------------
 % Editor: 		Guangyu Jian
 % Contact: 	gyjian@mail2.gdut.edu.cn 
