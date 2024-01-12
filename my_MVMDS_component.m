@@ -10,7 +10,7 @@ function [temp,omega_ou]=my_MVMDS_component(ewhnone,maxnum,penaly_factor,ds_flag
 % 
 %   temp:       res+each mode; ranging along 3-d; 
 %               the first one is residual, 
-%               the second one to the finnal one is IMF1, IMF2~~~;IMF_k; respectively.
+%               components from the second one to the finnal one respectively is IMF1, IMF2~~~;IMF_k; .
 %  
 %   omega_ou:   the center frequency of each IMF;
 %               the frst one to the finnal one corresponding to 
