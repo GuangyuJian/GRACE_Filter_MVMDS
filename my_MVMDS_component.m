@@ -18,8 +18,8 @@ function [temp,omega_ou]=my_MVMDS_component(ewhnone,maxnum,penaly_factor,ds_flag
 %-------------------------------------------------------
 % Editor: 		Guangyu Jian
 % Contact: 	gyjian@mail2.gdut.edu.cn 
-% please let me know if you confuse about our code
-% it is a code for filtering north-south stripe noise
+% Contact: 	gyjian@mail2.gdut.edu.cn 
+% please feel free for contacting us
 % 
 % Date: 2023 10 25
 % Reference: 
