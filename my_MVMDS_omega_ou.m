@@ -1,6 +1,7 @@
 function[signal,mode]=my_MVMDS_omega_ou(ewhnone,maxnum,penaly_factor,ds_flag,omega_ou_max)
 %%
-%  This function is dedicated to decompose the input 2-d matrix
+%  This function is dedicated to decompose the input 2-d matrix and collect the wanted mode 
+%  by using a cut-off frequency omega_ou_max
 %  input: 
 %  ewhnone:         input 2-d matrix
 %  maxnum:          K     (6 in our paper for GRACE noise)
@@ -14,10 +15,9 @@ function[signal,mode]=my_MVMDS_omega_ou(ewhnone,maxnum,penaly_factor,ds_flag,ome
 %               the second one to the finnal one is IMF1, IMF2~~~;IMF_k; respectively.
 %  
 %-------------------------------------------------------
-% Editor: 		Guangyu Jian
+% Editor: 		Guangyu Jian (GDUT)
 % Contact: 	gyjian@mail2.gdut.edu.cn 
-% please let me know if you confuse about our code
-% it is a code for filtering north-south stripe noise
+% please feel free for contacting us
 % 
 % Date: 2023 10 25
 % Reference: 
